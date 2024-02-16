@@ -1,0 +1,276 @@
+body{
+    border:10px solid black;
+    border-top: 0px;
+    /*background-image:linear-gradient(rgb(181, 232, 240),white,lightblue);*/
+    background-image: linear-gradient(to right bottom, #fbb3dc, #efb9e8, #e2bff0, #d5c5f5, #c9caf7, #c1d0fa, #bad7fc, #b6dcfb, #b4e4fc, #b5ecfb, #baf3f9, #c2f9f6);
+    /*background-image: linear-gradient(to right bottom, #df7ab3, #d487c7, #c794d7, #b9a1e3, #acacea, #a0b7f2, #96c1f7, #8ecbf9, #84d7fd, #7fe3fc, #83eef8, #90f8f1);*/
+   /* background-color: #eeeeee;*/
+    margin:0;
+} 
+.navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  overflow: hidden;
+}
+.li1{
+    display:inline;
+    float:right;
+}
+.l1{
+    display: block;
+    padding:15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: rgb(80, 80, 80);
+    color: white; 
+    text-decoration: none;  
+}
+.active{
+    background-color: brown;
+}
+.l1:hover{
+    background-color: red;
+}
+.homepic{
+    background-image: url(leone-venter-VieM9BdZKFo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 700px;
+}
+.homepic p{
+  padding-left: 70px;
+}
+.myname{
+    padding-top: 120px;
+    padding-left: 70px;
+    font-size: 50px;
+}
+.parinfo{
+  font-size: 30px;
+  padding-top: 10px;
+  margin: 0;
+}
+.skillinfo::before{
+  content: "Java Developer";
+  animation: animate infinite 5s;
+  padding-left: 10px;
+}
+@keyframes animate{
+  0%{
+    content: "Java Developer";
+  }
+  50%{
+    content: "Web Developer";
+  }
+  75%{
+    content : "Hard Worker";
+  }
+}
+.parcontent{
+  max-width:700px;
+  padding-right: 20px;
+  font-size: 23px;
+  text-align: justify;
+}
+.about,#education,#skills{
+  padding:30px;
+  padding-left:70px;
+  padding-right:20px;
+  margin:100px;
+  border:5px solid black;
+  border-radius: 10px;
+  background-color: #dfecf0;
+}
+#contact{
+  margin:100px;
+}
+.mypic{
+  float:right;
+  border-radius: 50%;
+  padding:15px;
+  padding-left:40px;
+  height:250px;
+  padding-top: 0px;
+  padding-right: 40px;
+}
+.about_content{
+  font-size: 22px;
+  text-align: justify;
+  padding-right: 50px;
+}
+.myself{
+  font-size: 22px;
+  width:700px;
+  margin:auto;
+}
+/*.edu {
+  list-style: none;
+}
+.edu >li{
+  position:relative;
+}
+.edu>li:before {
+  content: '\25CF';
+  margin-right: 10px;
+  font-size: 30px;
+}
+.edu>li:after {
+  position: absolute;
+  left: 0;
+  content: '';
+  border-left: 2px solid black;
+  margin-left: 8px;
+  height: 100%;
+}
+.edu >li:first-of-type:after {
+  top: 50%;
+}
+.edu >li:last-of-type:after {
+  top: -50%;
+}*/
+.edu{
+  font-size: 22px;
+}
+.skillimg{
+  height:80px;
+  width:80px;
+  padding:20px;
+  display: block;
+  margin: auto;
+}
+.imgh3{
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+.r1{
+  display: flex;
+}
+.col1{
+  flex: 33.33%;
+  padding:5px;
+  width:100%;
+}
+.coninfo{
+  max-width: 600px;
+  border:2px solid black;
+  margin: auto;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+input, select ,textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+h1{
+  font-size: 40px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-left:2px
+}
+.qlink li{
+  display: block;
+}
+
+.flink{
+  display: block;
+  padding: 10px;
+  color:white;
+  text-decoration: none;
+  padding: 2px;
+}
+.footer1{
+  padding:30px;
+  text-align: center;
+  width:300px;
+  height:200px;
+}
+.footer2{
+  padding: 30px;
+  text-align: center;
+  width:300px;
+  height:200px;
+}
+.footer3{
+    padding:30px;
+    text-align: center;
+    width:300px;
+    height:200px;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 20px;
+  }
+    .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .mainfoot{
+    justify-content: center;
+    display:flex;
+  }
+  @media screen and (max-width:1200px){
+    .about,#education,#skills,#contact{
+      padding-left:0px;
+      padding-right:0px;
+      margin:0px;
+      border:0px;
+      padding:10px;
+    }
+    .footer1,.footer2,.footer3{
+      padding: 10px;
+    }
+    .l1{
+      padding-left:10px;
+      padding-right:10px;
+    }
+  }
